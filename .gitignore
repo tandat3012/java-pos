@@ -1,0 +1,17 @@
+target/
+build/
+out/
+*.class
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+*.log
+.env
+.env.*
+!.env.example
+# Local credentials; commit only the empty example.
+src/main/resources/config/database.properties
+.local/

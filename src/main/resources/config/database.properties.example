@@ -1,0 +1,9 @@
+# SQL Server configuration example. Copy to database.properties locally.
+# Keep credentials out of Git and build artifacts.
+# Local Docker URL for a future database (no database/schema created yet):
+# jdbc:sqlserver://localhost:5436;databaseName=<database-name>;encrypt=true;trustServerCertificate=true
+# trustServerCertificate=true is for the local development container only.
+# This file is not loaded by the application.
+db.url=
+db.username=
+db.password=
